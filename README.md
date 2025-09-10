@@ -25,14 +25,17 @@ python ply_visual.py
 
 3. Enter the Absolute path of your directory containing your PLY files.
 
-    (Options) To filter the files, enter a keyword within your their names.
+    (Options) To filter the files, enter a keyword within their path names.
 
 4. Click the 검색(search) button
 
 5. Select the ply file you want to see.
 
-    5-1. Click the 뷰초기화 button to You reset the viewpoint to its default setting
+    5-1. Click the 뷰초기화 button to reset the viewpoint to its default setting
 
     5-2. Click the 첫번째뷰로정렬하기 button to synchronize the viewpoint of the selected point cloud with the first one displayed (the top-left view)
+
+
+I recommend not to load more than 10 ply files because of Out Of Memory issues. 
 
 
